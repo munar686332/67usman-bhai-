@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>67 Events | Temporary Staffing &amp; Event Hospitality Agency in Qatar</title>
+  <meta name="description" content="67 Events is Qatar's premier temporary staffing and hospitality manpower agency in Doha, providing vetted waiters, chefs, stewards, VIP hostesses, drivers, and medical staff with a 100% backup guarantee." />
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+          },
+          colors: {
+            navy: {
+              DEFAULT: '#1E3A8A',
+              dark: '#152865',
+              deep: '#0F1D4A',
+              light: '#2B4CB3',
+            },
+            burgundy: {
+              DEFAULT: '#8E1C36',
+              hover: '#A82240',
+              dark: '#6D1328',
+              soft: '#FDF2F4',
+            },
+            slatebg: '#F4F6F9',
+          },
+          boxShadow: {
+            card: '0 10px 30px -5px rgba(21, 40, 101, 0.08)',
+            'card-hover': '0 20px 40px -10px rgba(21, 40, 101, 0.16)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom scrollbar & subtle utility transitions */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F4F6F9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1E3A8A;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #8E1C36;
+    }
+
+    /* Marquee Animation for Event Showcase Ticker */
+    @keyframes marqueeScroll {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-marquee {
+      display: flex;
+      width: max-content;
+      animation: marqueeScroll 32s linear infinite;
+    }
+    .animate-marquee:hover {
+      animation-play-state: paused;
+    }
+
+    /* Hero Slide Transition */
+    .hero-slide {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+    }
+    .hero-slide.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Vertical Text Utility for Side Rails */
+    .writing-vertical {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased selection:bg-[#8E1C36] selection:text-white overflow-x-hidden">
+
+  <!-- =====================================================================
+       FLOATING DESKTOP SIDE RAILS (Left Scroll Progress & Right Social Links)
+       ===================================================================== -->
+  <!-- Left Vertical Scroll-to-Top Progress Bar (Desktop XL+) -->
+  <div class="hidden xl:flex fixed left-5 top-1/2 -translate-y-1/2 z-40 flex-col items-center gap-3 select-none">
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="group flex flex-col items-center gap-2 text-[11px] font-bold tracking-widest uppercase text-[#152865] hover:text-[#8E1C36] transition-colors" aria-label="Scroll to top">
+      <span class="writing-vertical">Scroll Top</span>
+      <div class="w-[2px] h-24 bg-slate-200 rounded-full overflow-hidden relative">
+        <div id="scroll-progress-bar" class="w-full bg-[#8E1C36] h-0 transition-all duration-150"></div>
+      </div>
+      <span class="w-7 h-7 rounded-full bg-white shadow-md border border-slate-200 flex items-center justify-center group-hover:bg-[#8E1C36] group-hover:text-white transition-all">
+        <i class="fa-solid fa-arrow-up text-[10px]"></i>
+      </span>
+    </button>
+  </div>
+
+  <!-- Right Vertical Follow Us Bar (Desktop XL+) -->
+  <div class="hidden xl:flex fixed right-5 top-1/2 -translate-y-1/2 z-40 flex-col items-center gap-3 select-none">
+    <span class="writing-vertical text-[11px] font-bold tracking-widest uppercase text-[#152865]">Follow Us</span>
+    <div class="w-[1.5px] h-10 bg-slate-300"></div>
+    <div class="flex flex-col gap-2">
+      <a href="#contact" aria-label="Facebook" class="w-8 h-8 rounded-full bg-white shadow-md border border-slate-100 flex items-center justify-center text-[#1E3A8A] hover:bg-[#8E1C36] hover:text-white transition-all">
+        <i class="fa-brands fa-facebook-f text-xs"></i>
+      </a>
+      <a href="#contact" aria-label="Instagram" class="w-8 h-8 rounded-full bg-white shadow-md border border-slate-100 flex items-center justify-center text-[#1E3A8A] hover:bg-[#8E1C36] hover:text-white transition-all">
+        <i class="fa-brands fa-instagram text-xs"></i>
+      </a>
+      <a href="#contact" aria-label="LinkedIn" class="w-8 h-8 rounded-full bg-white shadow-md border border-slate-100 flex items-center justify-center text-[#1E3A8A] hover:bg-[#8E1C36] hover:text-white transition-all">
+        <i class="fa-brands fa-linkedin-in text-xs"></i>
+      </a>
+      <a href="#contact" aria-label="TikTok" class="w-8 h-8 rounded-full bg-white shadow-md border border-slate-100 flex items-center justify-center text-[#1E3A8A] hover:bg-[#8E1C36] hover:text-white transition-all">
+        <i class="fa-brands fa-tiktok text-xs"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       TOP UTILITY INFO BAR
+       ===================================================================== -->
+  <div class="bg-[#152865] text-white text-xs py-2 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-4 sm:gap-6">
+        <a href="tel:+97430029294" class="flex items-center gap-1.5 hover:text-rose-200 transition-colors font-medium">
+          <i class="fa-solid fa-phone text-[#8E1C36] bg-white rounded-full p-1 text-[10px]"></i>
+          <span>+97430029294</span>
+        </a>
+        <a href="mailto:usmanbhai@gmail.com" class="flex items-center gap-1.5 hover:text-rose-200 transition-colors font-medium">
+          <i class="fa-solid fa-envelope text-[#8E1C36] bg-white rounded-full p-1 text-[10px]"></i>
+          <span>usmanbhai@gmail.com</span>
+        </a>
+      </div>
+      <div class="hidden md:flex items-center gap-4 text-slate-200">
+        <span class="inline-flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          ISO 9001:2015 Certified Manpower Partner in Qatar
+        </span>
+        <span class="text-white/30">|</span>
+        <span>Al Mansoura, Doha</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       1. STICKY TOP NAVIGATION BAR
+       ===================================================================== -->
+  <header id="navbar" class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 transition-shadow duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Left: Custom 67 Events SVG Emblem Logo -->
+        <a href="#home" class="flex items-center gap-3 group focus:outline-none" aria-label="67 Events Home">
+          <div class="bg-white rounded-xl p-1.5 border border-slate-100 shadow-sm group-hover:shadow transition-all">
+            <svg width="46" height="44" viewBox="0 0 100 94" fill="none" xmlns="http://www.w3.org/2000/svg" class="block">
+              <!-- Royal Blue '6' -->
+              <path d="M47 14C30.5 14 18 26.8 18 44.5C18 62.5 29.5 74 45.5 74C59.2 74 69 64.8 69 52.5C69 40.8 60.2 32.5 48.2 32.5C40.5 32.5 34.4 36.2 31.5 41.5C32.2 29.8 39.2 23.5 48.5 23.5C53.5 23.5 57.5 25.2 60.5 27.8L67.5 19.5C62.5 15.8 55.5 14 47 14ZM45.2 63.5C36.8 63.5 31.2 58 31.2 50.5C31.2 43.2 37 38.2 45 38.2C53 38.2 58.2 43.4 58.2 50.8C58.2 58.2 53 63.5 45.2 63.5Z" fill="#1E3A8A"/>
+              <!-- Burgundy '7' Intertwined -->
+              <path d="M44 16H86V25.5L59.5 74H46.5L72.2 26.8H44V16Z" fill="#8E1C36"/>
+              <!-- Subtle White Interlock Stroke Highlight -->
+              <path d="M58.5 35.5L65 26.8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+              <!-- Bottom Wordmark inside SVG Badge -->
+              <text x="50" y="90" text-anchor="middle" fill="#152865" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="14.5" letter-spacing="1.6">67 EVENTS</text>
+            </svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-display font-extrabold text-xl tracking-tight text-[#152865] leading-none">67 <span class="text-[#8E1C36]">EVENTS</span></span>
+            <span class="text-[11px] font-semibold uppercase tracking-widest text-slate-500 mt-1">Qatar Staffing Agency</span>
+          </div>
+        </a>
+
+        <!-- Center/Right Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-7 text-[14px] font-semibold text-slate-700">
+          <a href="#home" class="text-[#8E1C36] hover:text-[#8E1C36] transition-colors">Home</a>
+          <a href="#services" class="hover:text-[#8E1C36] transition-colors">Our Services</a>
+          <a href="#training" class="hover:text-[#8E1C36] transition-colors">Our Training</a>
+          <a href="#find-work" class="hover:text-[#8E1C36] transition-colors">Find Work</a>
+          <a href="#about" class="hover:text-[#8E1C36] transition-colors">About Us</a>
+          <a href="#faq" class="hover:text-[#8E1C36] transition-colors">Blog &amp; FAQ</a>
+          <a href="#contact" class="hover:text-[#8E1C36] transition-colors">Contact Us</a>
+        </nav>
+
+        <!-- Right CTA Button & Mobile Menu Toggle -->
+        <div class="flex items-center gap-3">
+          <button onclick="openApplyModal('Part-Time / Event Staff')" class="hidden sm:inline-flex items-center gap-2 bg-[#1E3A8A] hover:bg-[#8E1C36] text-white text-sm font-bold px-5 py-2.5 rounded-lg shadow-sm transition-all duration-300 transform hover:-translate-y-0.5">
+            <i class="fa-solid fa-briefcase text-xs"></i>
+            <span>Careers</span>
+          </button>
+
+          <!-- Hamburger Button for Mobile -->
+          <button id="mobile-menu-btn" class="lg:hidden p-2.5 rounded-lg text-[#152865] hover:bg-slate-100 focus:outline-none" aria-label="Open Navigation Menu">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-200 px-4 pt-3 pb-6 space-y-2 shadow-xl">
+      <a href="#home" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-semibold text-[#8E1C36] bg-rose-50/60">Home</a>
+      <a href="#services" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-slate-50 hover:text-[#8E1C36]">Our Services</a>
+      <a href="#training" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-slate-50 hover:text-[#8E1C36]">Our Training</a>
+      <a href="#find-work" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-slate-50 hover:text-[#8E1C36]">Find Work</a>
+      <a href="#about" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-slate-50 hover:text-[#8E1C36]">About Us</a>
+      <a href="#faq" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-slate-50 hover:text-[#8E1C36]">Blog &amp; FAQ</a>
+      <a href="#contact" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-slate-50 hover:text-[#8E1C36]">Contact Us</a>
+      <div class="pt-3 border-t border-slate-100 flex flex-col gap-2">
+        <button onclick="openApplyModal('General Career Application')" class="w-full bg-[#1E3A8A] hover:bg-[#8E1C36] text-white font-bold py-3 rounded-lg text-center transition-colors">
+          Careers — Apply Now
+        </button>
+        <div class="flex items-center justify-between text-xs text-slate-500 pt-2 px-1">
+          <a href="tel:+97430029294" class="font-semibold text-[#152865]"><i class="fa-solid fa-phone mr-1 text-[#8E1C36]"></i> +97430029294</a>
+          <a href="mailto:usmanbhai@gmail.com" class="font-semibold text-[#152865]"><i class="fa-solid fa-envelope mr-1 text-[#8E1C36]"></i> usmanbhai@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       2. HERO SLIDER (INTERACTIVE CAROUSEL)
+       ===================================================================== -->
+  <section id="home" class="relative w-full h-[580px] sm:h-[640px] lg:h-[680px] bg-[#0F1D4A] overflow-hidden">
+    
+    <!-- Slide 1 -->
+    <div class="hero-slide active absolute inset-0" data-slide="0">
+      <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1920&q=80" alt="Luxury Gala Event Hospitality Staff in Doha" class="w-full h-full object-cover object-center scale-105 transition-transform duration-[6000ms]" onerror="this.src='https://placehold.co/1920x800/152865/FFFFFF?text=67+Events+Qatar+Hospitality'" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0F1D4A]/95 via-[#152865]/75 to-transparent"></div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide absolute inset-0" data-slide="1">
+      <img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1920&q=80" alt="5-Star Banquet Waiters and Culinary Staff Qatar" class="w-full h-full object-cover object-center" onerror="this.src='https://placehold.co/1920x800/1E3A8A/FFFFFF?text=67+Events+Banquet+Staffing'" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0F1D4A]/95 via-[#152865]/75 to-transparent"></div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-slide absolute inset-0" data-slide="2">
+      <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1920&q=80" alt="International Conference and VIP Event Hosts in Doha" class="w-full h-full object-cover object-center" onerror="this.src='https://placehold.co/1920x800/8E1C36/FFFFFF?text=67+Events+Corporate+Staffing'" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0F1D4A]/95 via-[#152865]/75 to-transparent"></div>
+    </div>
+
+    <!-- Foreground Content Container -->
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
+      <div class="max-w-2xl bg-[#0F1D4A]/65 backdrop-blur-md border border-white/15 p-7 sm:p-10 rounded-2xl shadow-2xl">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#8E1C36] text-white text-xs font-bold uppercase tracking-wider mb-4 shadow">
+          <span class="w-2 h-2 rounded-full bg-white"></span>
+          <span>Your Corporate Partner</span>
+        </div>
+
+        <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-[1.15] tracking-tight mb-5">
+          SHORT &amp; LONG TERM STAFFING SOLUTIONS
+        </h1>
+
+        <p class="text-slate-200 text-base sm:text-lg leading-relaxed mb-8">
+          <strong class="text-white">67 Events</strong> gives companies direct access to qualified partners, to provide Manpower Staffing Solutions that enable businesses to improve their employee needs across Doha and all of Qatar.
+        </p>
+
+        <!-- Dual CTA Buttons in Burgundy (#8E1C36) -->
+        <div class="flex flex-wrap items-center gap-4">
+          <button onclick="openApplyModal('Event & Hospitality Job Seeker')" class="bg-[#8E1C36] hover:bg-[#A82240] text-white font-bold text-sm tracking-wider uppercase px-7 py-4 rounded-xl shadow-lg shadow-[#8E1C36]/30 transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2.5">
+            <span>FIND WORK NOW</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </button>
+
+          <a href="#staffing-form" class="bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white border-2 border-white hover:border-[#1E3A8A] font-bold text-sm tracking-wider uppercase px-7 py-3.5 rounded-xl shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2.5">
+            <span>BOOK YOUR STAFF</span>
+            <i class="fa-solid fa-users text-xs"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider Previous / Next Controls -->
+    <button id="prev-slide" aria-label="Previous Slide" class="hidden sm:flex absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/15 hover:bg-[#8E1C36] text-white backdrop-blur-sm border border-white/25 items-center justify-center transition-all">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button id="next-slide" aria-label="Next Slide" class="hidden sm:flex absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/15 hover:bg-[#8E1C36] text-white backdrop-blur-sm border border-white/25 items-center justify-center transition-all">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <!-- Slide Dots -->
+    <div class="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2.5">
+      <button class="slide-dot w-8 h-2.5 rounded-full bg-[#8E1C36] transition-all" data-index="0" aria-label="Slide 1"></button>
+      <button class="slide-dot w-2.5 h-2.5 rounded-full bg-white/50 hover:bg-white transition-all" data-index="1" aria-label="Slide 2"></button>
+      <button class="slide-dot w-2.5 h-2.5 rounded-full bg-white/50 hover:bg-white transition-all" data-index="2" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       3. EVENT SHOWCASE TICKER / CAROUSEL
+       ===================================================================== -->
+  <div class="bg-[#F4F6F9] border-b border-slate-200 py-4 overflow-hidden">
+    <div class="animate-marquee flex items-center gap-6">
+      <!-- Track Set 1 -->
+      <div class="flex items-center gap-6 shrink-0">
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#8E1C36] text-white text-[10px] uppercase">Motorsport</span>
+          F1 Grand Prix Qatar | UAE | KSA
+        </span>
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#1E3A8A] text-white text-[10px] uppercase">Global Sports</span>
+          FIFA World Cup &amp; AFC Asian Cup Events
+        </span>
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#8E1C36] text-white text-[10px] uppercase">Tech Summit</span>
+          Qatar Web Summit Doha
+        </span>
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#1E3A8A] text-white text-[10px] uppercase">Exhibitions</span>
+          Doha Exhibition &amp; Convention Center (DECC)
+        </span>
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#8E1C36] text-white text-[10px] uppercase">5-Star Luxury</span>
+          VIP Gala &amp; Royal Protocol Hospitality
+        </span>
+      </div>
+      <!-- Track Set 2 (Duplicate for Seamless Loop) -->
+      <div class="flex items-center gap-6 shrink-0" aria-hidden="true">
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#8E1C36] text-white text-[10px] uppercase">Motorsport</span>
+          F1 Grand Prix Qatar | UAE | KSA
+        </span>
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#1E3A8A] text-white text-[10px] uppercase">Global Sports</span>
+          FIFA World Cup &amp; AFC Asian Cup Events
+        </span>
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#8E1C36] text-white text-[10px] uppercase">Tech Summit</span>
+          Qatar Web Summit Doha
+        </span>
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#1E3A8A] text-white text-[10px] uppercase">Exhibitions</span>
+          Doha Exhibition &amp; Convention Center (DECC)
+        </span>
+        <span class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-200/80 text-sm font-bold text-[#152865]">
+          <span class="px-2 py-0.5 rounded bg-[#8E1C36] text-white text-[10px] uppercase">5-Star Luxury</span>
+          VIP Gala &amp; Royal Protocol Hospitality
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       4. INTRO & VALUE PROPOSITION SECTION
+       ===================================================================== -->
+  <section class="py-16 sm:py-24 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="inline-block text-xs font-extrabold uppercase tracking-[0.2em] text-[#8E1C36] bg-rose-50 px-4 py-1.5 rounded-full mb-4">
+        Trusted Manpower &amp; Hospitality Partner
+      </span>
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-[40px] font-extrabold text-[#152865] leading-tight mb-6">
+        Temporary Staffing Agency in Qatar – Hire Event &amp; Hospitality Staff in Doha
+      </h2>
+      <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-4xl mx-auto mb-10">
+        With <strong class="text-[#152865]">8+ years of specialized GCC staffing experience</strong> and full <strong class="text-[#152865]">ISO 9001:2015 certification</strong>, <strong class="text-[#8E1C36]">67 Events</strong> delivers reliable, groomed, and hospitality-trained personnel for Qatar's largest international sporting tournaments, exhibitions, luxury hotels, and corporate galas across Doha, Lusail, and West Bay. Every deployment is backed by our signature <strong class="text-[#1E3A8A] underline decoration-[#8E1C36] decoration-2 underline-offset-4">100% Backup Guarantee</strong> — if 10 staff are booked, 10 additional vetted professionals are held on standby to ensure zero operational disruption.
+      </p>
+
+      <!-- Key Metrics Row -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-4xl mx-auto">
+        <div class="bg-[#F4F6F9] rounded-2xl p-5 border border-slate-200/70">
+          <div class="font-display text-3xl font-extrabold text-[#1E3A8A]">8+ Yrs</div>
+          <div class="text-xs font-semibold uppercase tracking-wider text-slate-500 mt-1">GCC Staffing Legacy</div>
+        </div>
+        <div class="bg-[#F4F6F9] rounded-2xl p-5 border border-slate-200/70">
+          <div class="font-display text-3xl font-extrabold text-[#8E1C36]">100%</div>
+          <div class="text-xs font-semibold uppercase tracking-wider text-slate-500 mt-1">Standby Backup Ratio</div>
+        </div>
+        <div class="bg-[#F4F6F9] rounded-2xl p-5 border border-slate-200/70">
+          <div class="font-display text-3xl font-extrabold text-[#1E3A8A]">24–72h</div>
+          <div class="text-xs font-semibold uppercase tracking-wider text-slate-500 mt-1">Rapid Deployment</div>
+        </div>
+        <div class="bg-[#F4F6F9] rounded-2xl p-5 border border-slate-200/70">
+          <div class="font-display text-3xl font-extrabold text-[#8E1C36]">ISO</div>
+          <div class="text-xs font-semibold uppercase tracking-wider text-slate-500 mt-1">9001:2015 Certified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       5. CORE SERVICES GRID (DEEP NAVY #152865 FULL-WIDTH SECTION)
+       ===================================================================== -->
+  <section id="services" class="py-20 bg-[#152865] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-extrabold uppercase tracking-[0.2em] text-rose-300">What We Supply</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mt-2">
+          Core Temporary Staffing Solutions
+        </h2>
+        <p class="text-slate-300 mt-3 text-base">
+          Pre-screened, QID-verified, and uniformed professionals ready for single-day events, seasonal peaks, and multi-month contracts.
+        </p>
+      </div>
+
+      <!-- 3-Column Feature Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-[#0F1D4A] rounded-2xl overflow-hidden border border-white/10 shadow-xl group hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
+          <div class="relative h-60 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80" alt="Wait Staff, Stewards, Helpers and Commis Chefs in Doha" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/800x500/1E3A8A/FFFFFF?text=Hospitality+%26+Culinary+Staff'" />
+            <div class="absolute top-4 left-4 bg-[#8E1C36] text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+              Hospitality &amp; F&amp;B
+            </div>
+          </div>
+          <div class="p-7 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-display text-xl font-bold text-rose-300 group-hover:text-white transition-colors mb-3">
+                Wait Staff, Stewards, Helpers &amp; Commis
+              </h3>
+              <p class="text-slate-200 text-sm leading-relaxed">
+                5-star banquet waiters, silver-service servers, baristas, commis chefs (I, II, III), kitchen stewards, and logistics helpers trained in international food safety and silver service etiquette.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
+              <a href="#staffing-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-rose-300 inline-flex items-center gap-1.5">
+                Request Hospitality Team <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-[#0F1D4A] rounded-2xl overflow-hidden border border-white/10 shadow-xl group hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
+          <div class="relative h-60 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80" alt="Valet Parking, Chauffeur Drivers and Admin Staff Qatar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/800x500/1E3A8A/FFFFFF?text=Valet+%26+Corporate+Admin'" />
+            <div class="absolute top-4 left-4 bg-[#8E1C36] text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+              Operations &amp; Fleet
+            </div>
+          </div>
+          <div class="p-7 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-display text-xl font-bold text-rose-300 group-hover:text-white transition-colors mb-3">
+                Valet Parking, Drivers &amp; Admin Staff
+              </h3>
+              <p class="text-slate-200 text-sm leading-relaxed">
+                Licensed Qatari-permit valet attendants, VIP chauffeurs, fleet coordinators, data entry operators, document controllers, and back-office administrative executives for seamless corporate workflows.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
+              <a href="#staffing-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-rose-300 inline-flex items-center gap-1.5">
+                Request Fleet &amp; Admin <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-[#0F1D4A] rounded-2xl overflow-hidden border border-white/10 shadow-xl group hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
+          <div class="relative h-60 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" alt="Nurses, Medical Staff and VIP Receptionists in Qatar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/800x500/1E3A8A/FFFFFF?text=Medical+%26+Front+Office'" />
+            <div class="absolute top-4 left-4 bg-[#8E1C36] text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+              Healthcare &amp; Front Desk
+            </div>
+          </div>
+          <div class="p-7 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-display text-xl font-bold text-rose-300 group-hover:text-white transition-colors mb-3">
+                Nurses, Medical Staff &amp; Receptionists
+              </h3>
+              <p class="text-slate-200 text-sm leading-relaxed">
+                DHP-licensed registered nurses, first-aid event paramedics, clinic support staff, multilingual VIP receptionists, and guest-relations ambassadors for hospitals, stadiums, and corporate towers.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
+              <a href="#staffing-form" class="text-xs font-bold uppercase tracking-wider text-white hover:text-rose-300 inline-flex items-center gap-1.5">
+                Request Medical &amp; Front Desk <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       6. JOB SEEKER SPLIT-BOX BANNER
+       ===================================================================== -->
+  <section id="find-work" class="py-16 bg-[#F4F6F9]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 rounded-3xl overflow-hidden shadow-card border border-slate-200/80 bg-white">
+        
+        <!-- Left Split Box: Part/Full Time Jobs -->
+        <div class="p-8 sm:p-12 flex flex-col justify-between border-b md:border-b-0 md:border-r border-slate-200 bg-gradient-to-br from-white to-slate-50">
+          <div>
+            <span class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#1E3A8A] bg-blue-50 px-3 py-1 rounded-full mb-4">
+              <i class="fa-solid fa-calendar-check"></i> Long-Term &amp; Contract Roles
+            </span>
+            <h3 class="font-display text-2xl sm:text-3xl font-extrabold text-[#152865] leading-snug mb-3">
+              Are You Looking For Part/Full Time Jobs?
+            </h3>
+            <p class="text-slate-600 text-sm sm:text-base mb-8">
+              Join leading hotels, hospitals, retail brands, and corporate offices across Doha with competitive monthly packages, training, and career progression.
+            </p>
+          </div>
+          <div>
+            <button onclick="openApplyModal('Part-Time / Full-Time Position')" class="bg-[#1E3A8A] hover:bg-[#152865] text-white font-bold text-sm px-7 py-3.5 rounded-xl shadow-md transition-all inline-flex items-center gap-2">
+              <span>Get Hired Now</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Split Box: Casual Jobs -->
+        <div class="p-8 sm:p-12 flex flex-col justify-between bg-gradient-to-br from-white to-rose-50/40">
+          <div>
+            <span class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#8E1C36] bg-rose-50 px-3 py-1 rounded-full mb-4">
+              <i class="fa-solid fa-bolt"></i> Flexible Event Shifts
+            </span>
+            <h3 class="font-display text-2xl sm:text-3xl font-extrabold text-[#152865] leading-snug mb-3">
+              Are You Looking For Casual Jobs?
+            </h3>
+            <p class="text-slate-600 text-sm sm:text-base mb-8">
+              Work at Qatar's biggest concerts, sporting championships, VIP weddings, and exhibitions on flexible daily or weekend schedules with prompt payouts.
+            </p>
+          </div>
+          <div>
+            <button onclick="openApplyModal('Casual / Event Shift Work')" class="bg-[#8E1C36] hover:bg-[#A82240] text-white font-bold text-sm px-7 py-3.5 rounded-xl shadow-md transition-all inline-flex items-center gap-2">
+              <span>Get Hired Now</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       7. INTERACTIVE "CONTACT OUR TEAM FOR STAFFING NEEDS" FORM
+       ===================================================================== -->
+  <section id="staffing-form" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-[#F4F6F9] rounded-3xl p-8 sm:p-12 border border-slate-200/90 shadow-card">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <span class="text-xs font-extrabold uppercase tracking-[0.2em] text-[#8E1C36]">Corporate Booking Desk</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-[#152865] mt-2">
+            Contact Our Team for Staffing Needs
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Tell us your event dates, required roles, and headcount. Our Doha operations desk responds with a tailored manpower proposal within 2 hours.
+          </p>
+        </div>
+
+        <form id="corporate-inquiry-form" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <!-- Full Name -->
+          <div>
+            <label for="corp-name" class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-2">
+              Full Name <span class="text-[#8E1C36]">*</span>
+            </label>
+            <input type="text" id="corp-name" required placeholder="e.g., Tariq Al-Mansoori" class="w-full px-4 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/20 transition-all" />
+          </div>
+
+          <!-- Company Name -->
+          <div>
+            <label for="corp-company" class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-2">
+              Company Name <span class="text-[#8E1C36]">*</span>
+            </label>
+            <input type="text" id="corp-company" required placeholder="e.g., Doha Luxury Hotels Group" class="w-full px-4 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/20 transition-all" />
+          </div>
+
+          <!-- Staffing Need -->
+          <div>
+            <label for="corp-need" class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-2">
+              Staffing Need <span class="text-[#8E1C36]">*</span>
+            </label>
+            <input type="text" id="corp-need" required placeholder="Waiter, chef.." class="w-full px-4 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/20 transition-all" />
+          </div>
+
+          <!-- Designation -->
+          <div>
+            <label for="corp-designation" class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-2">
+              Designation <span class="text-[#8E1C36]">*</span>
+            </label>
+            <input type="text" id="corp-designation" required placeholder="e.g., Events Manager / HR Director" class="w-full px-4 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/20 transition-all" />
+          </div>
+
+          <!-- Email -->
+          <div>
+            <label for="corp-email" class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-2">
+              Email <span class="text-[#8E1C36]">*</span>
+            </label>
+            <input type="email" id="corp-email" required placeholder="name@company.qa" class="w-full px-4 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/20 transition-all" />
+          </div>
+
+          <!-- Phone Number -->
+          <div>
+            <label for="corp-phone" class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-2">
+              Phone Number <span class="text-[#8E1C36]">*</span>
+            </label>
+            <input type="tel" id="corp-phone" required placeholder="+974 XXXX XXXX" class="w-full px-4 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/20 transition-all" />
+          </div>
+
+          <!-- Submit Button -->
+          <div class="sm:col-span-2 pt-2">
+            <button type="submit" class="w-full bg-[#8E1C36] hover:bg-[#A82240] text-white font-bold text-base py-4 rounded-xl shadow-lg shadow-[#8E1C36]/25 transition-all duration-300 flex items-center justify-center gap-2">
+              <span>Submit Staffing Request</span>
+              <i class="fa-solid fa-paper-plane text-sm"></i>
+            </button>
+          </div>
+        </form>
+
+        <!-- Interactive Confirmation Box (Hidden by default) -->
+        <div id="corporate-form-success" class="hidden mt-6 p-6 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i class="fa-solid fa-check"></i>
+          </div>
+          <div>
+            <h4 class="font-display font-bold text-lg text-emerald-950">Staffing Inquiry Received by 67 Events!</h4>
+            <p id="corporate-success-text" class="text-sm text-emerald-800 mt-1">
+              Thank you! Our Doha staffing coordinators have received your request and will reach out shortly. For urgent same-day dispatch, call <a href="tel:+97430029294" class="font-bold underline">+97430029294</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       8. ABOUT US SECTION (DEEP NAVY #152865 FULL-WIDTH SPLIT LAYOUT)
+       ===================================================================== -->
+  <section id="about" class="py-20 bg-[#152865] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Column -->
+        <div class="lg:col-span-6 space-y-6">
+          <span class="inline-block text-xs font-extrabold uppercase tracking-[0.2em] text-rose-300 bg-white/10 px-3.5 py-1.5 rounded-full">
+            WHAT IS 67 EVENTS?
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
+            About Us
+          </h2>
+          <p class="text-slate-200 text-base sm:text-lg leading-relaxed">
+            <strong class="text-white">67 Events</strong> is led by a veteran management team with decades of combined leadership across international hospitality, mega-event production, and compliant manpower outsourcing in Qatar and the wider GCC.
+          </p>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            From five-star hotel banquets and royal protocol receptions to high-volume stadium operations and healthcare support, our in-house recruitment and training academy ensures every team member arrives punctual, impeccably groomed, and briefed to exceed client expectations.
+          </p>
+
+          <div id="training" class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="flex items-start gap-3 bg-[#0F1D4A] p-4 rounded-xl border border-white/10">
+              <i class="fa-solid fa-award text-rose-400 text-xl mt-0.5"></i>
+              <div>
+                <h4 class="font-bold text-sm text-white">In-House Hospitality Academy</h4>
+                <p class="text-xs text-slate-300 mt-1">Mandatory grooming, hygiene &amp; VIP etiquette certification prior to deployment.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3 bg-[#0F1D4A] p-4 rounded-xl border border-white/10">
+              <i class="fa-solid fa-shield-halved text-rose-400 text-xl mt-0.5"></i>
+              <div>
+                <h4 class="font-bold text-sm text-white">100% Qatar Labor Compliant</h4>
+                <p class="text-xs text-slate-300 mt-1">Valid QIDs, health cards, insurance coverage, and transparent payroll compliance.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-3">
+            <a href="#contact" class="inline-flex items-center gap-2.5 bg-[#8E1C36] hover:bg-[#A82240] text-white font-bold text-sm px-7 py-4 rounded-xl shadow-lg transition-all">
+              <span>About 67 Events Qatar</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Visual -->
+        <div class="lg:col-span-6">
+          <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1000&q=80" alt="67 Events Professional Culinary and Hospitality Team in Doha" class="w-full h-[420px] sm:h-[480px] object-cover" onerror="this.src='https://placehold.co/1000x700/0F1D4A/FFFFFF?text=67+Events+Hospitality+Team'" />
+            <div class="absolute bottom-5 left-5 right-5 bg-[#0F1D4A]/90 backdrop-blur-md p-5 rounded-2xl border border-white/15 flex items-center justify-between gap-4">
+              <div>
+                <div class="text-xs font-bold uppercase tracking-wider text-rose-300">Doha Operations Hub</div>
+                <div class="font-display font-bold text-white text-base sm:text-lg">Trained, Uniformed &amp; Ready On-Demand</div>
+              </div>
+              <div class="w-12 h-12 rounded-xl bg-[#8E1C36] text-white flex items-center justify-center shrink-0 font-display font-extrabold text-lg">
+                67
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       9. STAFFING CATEGORIES & INTERACTIVE FAQ ACCORDION
+       ===================================================================== -->
+  <section id="faq" class="py-20 bg-[#F4F6F9]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Staffing Categories Pills -->
+      <div class="text-center max-w-4xl mx-auto mb-14">
+        <span class="text-xs font-extrabold uppercase tracking-[0.2em] text-[#8E1C36]">Specialized Manpower Roster</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-[#152865] mt-2 mb-8">
+          Staff You Can Hire from Our Temporary Staffing Agency in Qatar
+        </h2>
+
+        <div class="flex flex-wrap items-center justify-center gap-3">
+          <button onclick="selectStaffCategory('Event Staff')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Event Staff</button>
+          <button onclick="selectStaffCategory('Hospitality Staffing')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Hospitality Staffing</button>
+          <button onclick="selectStaffCategory('Manpower Staffing')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Manpower Staffing</button>
+          <button onclick="selectStaffCategory('VIP Event Staffing')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#8E1C36] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">VIP Event Staffing</button>
+          <button onclick="selectStaffCategory('Exhibition & Trade Show Staff')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Exhibition &amp; Trade Show Staff</button>
+          <button onclick="selectStaffCategory('Sports Event Staff')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Sports Event Staff</button>
+          <button onclick="selectStaffCategory('Security Guards')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Security Guards</button>
+          <button onclick="selectStaffCategory('Drivers')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Drivers</button>
+          <button onclick="selectStaffCategory('Corporate & Admin Staffing')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Corporate &amp; Admin Staffing</button>
+          <button onclick="selectStaffCategory('Retail Staffing')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#1E3A8A] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">Retail Staffing</button>
+          <button onclick="selectStaffCategory('B2B Staffing')" class="px-5 py-2.5 rounded-full bg-white hover:bg-[#8E1C36] text-[#152865] hover:text-white font-semibold text-sm border border-slate-200 shadow-sm transition-all">B2B Staffing</button>
+        </div>
+
+        <!-- Quick Booking Callout -->
+        <div class="mt-8 bg-white border-l-4 border-[#8E1C36] rounded-r-2xl p-5 shadow-sm text-left sm:text-center max-w-3xl mx-auto">
+          <p class="text-sm sm:text-base text-slate-700 font-medium">
+            <strong class="text-[#8E1C36]">Need a team fast?</strong> Request staff from <strong class="text-[#152865]">67 Events</strong> — share your date, venue, roles and headcount and we confirm within <strong class="text-[#1E3A8A]">24–72 hours</strong>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Interactive FAQ Accordion (4 Key Questions) -->
+      <div class="max-w-4xl mx-auto space-y-4">
+        <h3 class="font-display text-2xl font-extrabold text-[#152865] text-center mb-6">
+          Frequently Asked Questions About Hiring Staff in Qatar
+        </h3>
+
+        <!-- FAQ 1 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-display font-bold text-[#152865] hover:text-[#8E1C36] transition-colors" aria-expanded="true">
+            <span>1. How quickly can 67 Events deploy temporary staff in Doha and across Qatar?</span>
+            <span class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center shrink-0 text-[#8E1C36]">
+              <i class="fa-solid fa-minus text-xs"></i>
+            </span>
+          </button>
+          <div class="faq-content px-6 pb-5 text-slate-600 text-sm sm:text-base leading-relaxed">
+            For urgent requests, <strong>67 Events</strong> can mobilize pre-vetted hospitality, event, and logistics personnel within <strong>24 to 72 hours</strong> anywhere in Doha, Lusail, Al Wakrah, or Al Khor. For large-scale exhibitions, sporting tournaments, and multi-week hotel contracts, we assign a dedicated account supervisor to manage rosters, uniforms, and shift briefings seamlessly.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-display font-bold text-[#152865] hover:text-[#8E1C36] transition-colors" aria-expanded="false">
+            <span>2. How does 67 Events' 100% Backup Guarantee work?</span>
+            <span class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center shrink-0 text-[#1E3A8A]">
+              <i class="fa-solid fa-plus text-xs"></i>
+            </span>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm sm:text-base leading-relaxed">
+            Punctuality and attendance are critical in live events and five-star hospitality. Under our <strong>100% Backup Guarantee</strong>, if your organization books 10 staff members, 67 Events maintains 10 equally qualified standby personnel ready for immediate dispatch—ensuring zero drop in headcount even in the event of unexpected illness or traffic delays.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-display font-bold text-[#152865] hover:text-[#8E1C36] transition-colors" aria-expanded="false">
+            <span>3. Are all 67 Events personnel legally compliant and trained for Qatar venues?</span>
+            <span class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center shrink-0 text-[#1E3A8A]">
+              <i class="fa-solid fa-plus text-xs"></i>
+            </span>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm sm:text-base leading-relaxed">
+            Yes. Every candidate deployed by <strong>67 Events</strong> holds valid Qatari residency documentation (QID), mandatory occupational health/food-handling certificates where applicable, and completes our ISO 9001:2015-aligned hospitality grooming and cultural etiquette induction before stepping onto your site.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-display font-bold text-[#152865] hover:text-[#8E1C36] transition-colors" aria-expanded="false">
+            <span>4. Can we hire staff for both single-day VIP events and long-term corporate placements?</span>
+            <span class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center shrink-0 text-[#1E3A8A]">
+              <i class="fa-solid fa-plus text-xs"></i>
+            </span>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm sm:text-base leading-relaxed">
+            Absolutely. We offer flexible short-term shift packages (daily, weekend, or exhibition duration) as well as monthly and annual outsourcing contracts for hotels, hospitals, retail flagships, and corporate offices—handling payroll, accommodation, transport, and supervision under one transparent invoice.
+          </div>
+        </div>
+      </div>
+
+      <!-- Centered CTA -->
+      <div class="text-center mt-12">
+        <p class="font-display text-xl sm:text-2xl font-bold text-[#152865] mb-4">
+          Looking for professional staffing solution for your events?
+        </p>
+        <a href="#staffing-form" class="inline-flex items-center gap-2.5 bg-[#8E1C36] hover:bg-[#A82240] text-white font-bold text-sm uppercase tracking-wider px-8 py-4 rounded-xl shadow-lg transition-all">
+          <span>Contact Us Today</span>
+          <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       10. CLIENT REVIEWS TABS (DEEP NAVY #152865 SECTION)
+       ===================================================================== -->
+  <section class="py-20 bg-[#152865] text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-extrabold uppercase tracking-[0.2em] text-rose-300">CLIENT'S REVIEWS</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white mt-2">
+          What our Clients say about us.
+        </h2>
+      </div>
+
+      <!-- Interactive Client Tabs Navigation (All 9 Client Organizations) -->
+      <div id="review-tabs" class="flex flex-wrap items-center justify-center gap-2.5 mb-10">
+        <!-- Buttons injected & managed cleanly via JS -->
+      </div>
+
+      <!-- Active Testimonial Display Card -->
+      <div class="bg-[#0F1D4A] border border-white/15 rounded-3xl p-8 sm:p-12 shadow-2xl max-w-4xl mx-auto relative">
+        <div class="text-[#8E1C36] text-5xl font-serif leading-none mb-4 opacity-80">
+          <i class="fa-solid fa-quote-left"></i>
+        </div>
+
+        <p id="review-quote" class="text-slate-100 text-lg sm:text-xl leading-relaxed font-medium mb-8">
+          "67 Events consistently delivers polished, attentive hospitality staff who understand five-star service standards from day one. Their standby backup guarantee gives our banquet leadership complete peace of mind."
+        </p>
+
+        <div class="flex flex-wrap items-center justify-between gap-4 pt-6 border-t border-white/10">
+          <div class="flex items-center gap-4">
+            <div id="review-avatar" class="w-14 h-14 rounded-full bg-gradient-to-br from-[#8E1C36] to-[#1E3A8A] text-white font-display font-extrabold text-lg flex items-center justify-center border-2 border-white/25 shadow">
+              AT
+            </div>
+            <div>
+              <h4 id="review-author" class="font-display font-bold text-white text-lg">Marcus Vance</h4>
+              <p id="review-role" class="text-rose-300 text-sm font-medium">Director of Banquet Operations — Atlantis</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-1 text-amber-400 text-sm" aria-label="5 out of 5 stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       11. CLIENT & PARTNER LOGOS SHOWCASE GRID
+       ===================================================================== -->
+  <section class="py-16 bg-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <span class="text-xs font-extrabold uppercase tracking-[0.2em] text-[#8E1C36]">Trusted Across Qatar &amp; The GCC</span>
+        <h3 class="font-display text-2xl sm:text-3xl font-extrabold text-[#152865] mt-1">
+          Hospitality, Healthcare &amp; Venue Partners
+        </h3>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 items-center">
+        <div class="h-20 rounded-xl bg-[#F4F6F9] border border-slate-200/70 px-3 flex items-center justify-center text-center font-display font-extrabold text-xs tracking-wider uppercase text-[#152865] hover:border-[#8E1C36] hover:text-[#8E1C36] transition-all">
+          Mandarin Oriental
+        </div>
+        <div class="h-20 rounded-xl bg-[#F4F6F9] border border-slate-200/70 px-3 flex items-center justify-center text-center font-display font-extrabold text-xs tracking-wider uppercase text-[#152865] hover:border-[#8E1C36] hover:text-[#8E1C36] transition-all">
+          Bateel
+        </div>
+        <div class="h-20 rounded-xl bg-[#F4F6F9] border border-slate-200/70 px-3 flex items-center justify-center text-center font-display font-extrabold text-xs tracking-wider uppercase text-[#152865] hover:border-[#8E1C36] hover:text-[#8E1C36] transition-all">
+          Jumeirah
+        </div>
+        <div class="h-20 rounded-xl bg-[#F4F6F9] border border-slate-200/70 px-3 flex items-center justify-center text-center font-display font-extrabold text-xs tracking-wider uppercase text-[#152865] hover:border-[#8E1C36] hover:text-[#8E1C36] transition-all">
+          The Ritz-Carlton
+        </div>
+        <div class="h-20 rounded-xl bg-[#F4F6F9] border border-slate-200/70 px-3 flex items-center justify-center text-center font-display font-extrabold text-xs tracking-wider uppercase text-[#152865] hover:border-[#8E1C36] hover:text-[#8E1C36] transition-all">
+          Sheraton Grand
+        </div>
+        <div class="h-20 rounded-xl bg-[#F4F6F9] border border-slate-200/70 px-3 flex items-center justify-center text-center font-display font-extrabold text-xs tracking-wider uppercase text-[#152865] hover:border-[#8E1C36] hover:text-[#8E1C36] transition-all">
+          National Museum of Qatar
+        </div>
+        <div class="h-20 rounded-xl bg-[#F4F6F9] border border-slate-200/70 px-3 flex items-center justify-center text-center font-display font-extrabold text-xs tracking-wider uppercase text-[#152865] hover:border-[#8E1C36] hover:text-[#8E1C36] transition-all">
+          Raffles Doha
+        </div>
+        <div class="h-20 rounded-xl bg-[#F4F6F9] border border-slate-200/70 px-3 flex items-center justify-center text-center font-display font-extrabold text-xs tracking-wider uppercase text-[#152865] hover:border-[#8E1C36] hover:text-[#8E1C36] transition-all">
+          Aman Hospital
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       12. PART-TIME HIRING BANNER (NAVY CARD WITH BURGUNDY ACCENTS)
+       ===================================================================== -->
+  <section class="py-16 bg-[#F4F6F9]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-r from-[#152865] via-[#1E3A8A] to-[#152865] rounded-3xl overflow-hidden shadow-2xl border border-white/10 grid grid-cols-1 lg:grid-cols-12 items-center">
+        
+        <!-- Left Text Content -->
+        <div class="lg:col-span-7 p-8 sm:p-12 lg:p-14 text-white">
+          <span class="inline-flex items-center gap-2 bg-[#8E1C36] text-white text-xs font-extrabold uppercase tracking-widest px-4 py-1.5 rounded-full mb-5 shadow">
+            <i class="fa-solid fa-bullhorn"></i> WE'RE HIRING!
+          </span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold leading-tight mb-4">
+            Are you looking for a part-time job?
+          </h2>
+          <p class="text-slate-200 text-base sm:text-lg leading-relaxed mb-8 max-w-xl">
+            Apply Now with <strong class="text-white">67 Events</strong> and make the most out of your free time. Join Qatar's most dynamic events, luxury hotels, and VIP hospitality teams with flexible shifts and rapid onboarding.
+          </p>
+          <button onclick="openApplyModal('Part-Time / Weekend Event Staff')" class="bg-[#8E1C36] hover:bg-[#A82240] text-white font-bold text-sm uppercase tracking-wider px-8 py-4 rounded-xl shadow-lg transition-all inline-flex items-center gap-2.5">
+            <span>Careers</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </button>
+        </div>
+
+        <!-- Right Visual -->
+        <div class="lg:col-span-5 h-72 lg:h-full relative">
+          <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80" alt="Join 67 Events Part-Time Hospitality Crew in Doha" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/900x600/8E1C36/FFFFFF?text=Join+67+Events+Team'" />
+          <div class="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-[#152865] via-transparent to-transparent"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       13. FOOTER (4-COLUMN CLEAN LIGHT FOOTER)
+       ===================================================================== -->
+  <footer id="contact" class="bg-white border-t border-slate-200 pt-16 pb-10 text-slate-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-200">
+        
+        <!-- Column 1: 67 Events Logo & Summary -->
+        <div class="space-y-4">
+          <a href="#home" class="inline-flex items-center gap-3">
+            <div class="bg-white rounded-xl p-1.5 border border-slate-200 shadow-sm">
+              <svg width="44" height="42" viewBox="0 0 100 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M47 14C30.5 14 18 26.8 18 44.5C18 62.5 29.5 74 45.5 74C59.2 74 69 64.8 69 52.5C69 40.8 60.2 32.5 48.2 32.5C40.5 32.5 34.4 36.2 31.5 41.5C32.2 29.8 39.2 23.5 48.5 23.5C53.5 23.5 57.5 25.2 60.5 27.8L67.5 19.5C62.5 15.8 55.5 14 47 14ZM45.2 63.5C36.8 63.5 31.2 58 31.2 50.5C31.2 43.2 37 38.2 45 38.2C53 38.2 58.2 43.4 58.2 50.8C58.2 58.2 53 63.5 45.2 63.5Z" fill="#1E3A8A"/>
+                <path d="M44 16H86V25.5L59.5 74H46.5L72.2 26.8H44V16Z" fill="#8E1C36"/>
+                <path d="M58.5 35.5L65 26.8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+                <text x="50" y="90" text-anchor="middle" fill="#152865" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="14.5" letter-spacing="1.6">67 EVENTS</text>
+              </svg>
+            </div>
+            <div>
+              <div class="font-display font-extrabold text-xl text-[#152865]">67 <span class="text-[#8E1C36]">EVENTS</span></div>
+              <div class="text-[11px] font-semibold uppercase tracking-widest text-slate-500">Doha, Qatar</div>
+            </div>
+          </a>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Qatar's ISO 9001:2015 certified temporary staffing and hospitality manpower agency delivering trained professionals with a 100% backup guarantee.
+          </p>
+          <div class="flex items-center gap-2.5 pt-1">
+            <a href="#contact" aria-label="Facebook" class="w-9 h-9 rounded-lg bg-[#F4F6F9] hover:bg-[#1E3A8A] text-[#152865] hover:text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-facebook-f text-xs"></i></a>
+            <a href="#contact" aria-label="Instagram" class="w-9 h-9 rounded-lg bg-[#F4F6F9] hover:bg-[#8E1C36] text-[#152865] hover:text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-instagram text-xs"></i></a>
+            <a href="#contact" aria-label="LinkedIn" class="w-9 h-9 rounded-lg bg-[#F4F6F9] hover:bg-[#1E3A8A] text-[#152865] hover:text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-linkedin-in text-xs"></i></a>
+            <a href="#contact" aria-label="TikTok" class="w-9 h-9 rounded-lg bg-[#F4F6F9] hover:bg-[#8E1C36] text-[#152865] hover:text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-tiktok text-xs"></i></a>
+          </div>
+        </div>
+
+        <!-- Column 2: Our Office -->
+        <div>
+          <h4 class="font-display font-bold text-base text-[#152865] uppercase tracking-wider mb-4">
+            Our Office:
+          </h4>
+          <div class="flex items-start gap-3 text-sm text-slate-600 leading-relaxed">
+            <i class="fa-solid fa-location-dot text-[#8E1C36] text-base mt-1"></i>
+            <p>
+              Al Mansoura (257), 3rd Floor, Office No.31,<br />
+              Doha, Qatar
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+            <strong class="text-[#152865]">Working Hours:</strong><br />
+            Saturday – Thursday: 8:30 AM – 6:30 PM<br />
+            24/7 Event Dispatch Support
+          </div>
+        </div>
+
+        <!-- Column 3: Contact Us -->
+        <div>
+          <h4 class="font-display font-bold text-base text-[#152865] uppercase tracking-wider mb-4">
+            Contact Us
+          </h4>
+          <ul class="space-y-3 text-sm">
+            <li>
+              <a href="tel:+97430029294" class="flex items-center gap-3 text-slate-700 hover:text-[#8E1C36] font-semibold transition-colors">
+                <span class="w-8 h-8 rounded-lg bg-rose-50 text-[#8E1C36] flex items-center justify-center shrink-0">
+                  <i class="fa-solid fa-phone text-xs"></i>
+                </span>
+                <span>+97430029294</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:usmanbhai@gmail.com" class="flex items-center gap-3 text-slate-700 hover:text-[#8E1C36] font-semibold transition-colors">
+                <span class="w-8 h-8 rounded-lg bg-blue-50 text-[#1E3A8A] flex items-center justify-center shrink-0">
+                  <i class="fa-solid fa-envelope text-xs"></i>
+                </span>
+                <span>usmanbhai@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+          <div class="mt-5">
+            <a href="#staffing-form" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#8E1C36] hover:text-[#1E3A8A] transition-colors">
+              <span>Request a Manpower Quote</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 4: Newsletter Sign-up -->
+        <div>
+          <h4 class="font-display font-bold text-base text-[#152865] uppercase tracking-wider mb-4">
+            Subscribe to 67 Events Updates
+          </h4>
+          <p class="text-xs text-slate-600 leading-relaxed mb-4">
+            Receive event staffing alerts, seasonal hospitality hiring drives, and industry updates across Qatar.
+          </p>
+          <form id="newsletter-form" class="space-y-2.5">
+            <input type="email" id="newsletter-email" required placeholder="Enter your email address" class="w-full px-4 py-3 rounded-xl bg-[#F4F6F9] border border-slate-300 text-sm text-slate-800 focus:outline-none focus:border-[#1E3A8A]" />
+            <button type="submit" class="w-full bg-[#1E3A8A] hover:bg-[#8E1C36] text-white font-bold text-xs uppercase tracking-wider py-3 rounded-xl transition-colors">
+              Subscribe Now
+            </button>
+          </form>
+          <p id="newsletter-feedback" class="hidden text-xs font-semibold text-emerald-700 mt-2">
+            <i class="fa-solid fa-circle-check mr-1"></i> Subscribed! Welcome to 67 Events updates.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Bottom Copyright Bar -->
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p>&copy; 2026, <strong class="text-[#152865]">67 EVENTS</strong>. All rights reserved.</p>
+        <div class="flex items-center gap-4">
+          <a href="#privacy" onclick="openPrivacyModal(event)" class="hover:text-[#8E1C36] font-medium transition-colors">Privacy Policy</a>
+          <span>|</span>
+          <a href="#services" class="hover:text-[#8E1C36] font-medium transition-colors">Staffing Services</a>
+          <span>|</span>
+          <a href="#find-work" class="hover:text-[#8E1C36] font-medium transition-colors">Careers in Qatar</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       INTERACTIVE CANDIDATE JOB APPLICATION MODAL
+       ===================================================================== -->
+  <div id="apply-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-[#0F1D4A]/75 backdrop-blur-sm p-4 overflow-y-auto">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-7 sm:p-9 shadow-2xl border border-slate-200 relative my-8">
+      <button onclick="closeApplyModal()" aria-label="Close Modal" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-[#8E1C36] text-slate-600 hover:text-white flex items-center justify-center transition-colors">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <span class="inline-block text-[11px] font-extrabold uppercase tracking-widest text-[#8E1C36] bg-rose-50 px-3 py-1 rounded-full mb-2">
+        67 Events Qatar Careers
+      </span>
+      <h3 class="font-display text-2xl font-extrabold text-[#152865]">
+        Apply for Work in Qatar
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-600 mt-1 mb-6">
+        Complete your candidate profile below. Our recruitment team in Al Mansoura, Doha reviews applications daily.
+      </p>
+
+      <form id="candidate-apply-form" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-1.5">Full Name *</label>
+          <input type="text" id="cand-name" required placeholder="Your full name" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-[#1E3A8A]" />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-1.5">Qatar Mobile Number *</label>
+            <input type="tel" id="cand-phone" required placeholder="+974 XXXX XXXX" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-[#1E3A8A]" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-1.5">Email Address *</label>
+            <input type="email" id="cand-email" required placeholder="you@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-[#1E3A8A]" />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-1.5">Job Category *</label>
+            <select id="cand-role" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm bg-white focus:outline-none focus:border-[#1E3A8A]">
+              <option value="Part-Time / Full-Time Position">Part-Time / Full-Time Position</option>
+              <option value="Casual / Event Shift Work">Casual / Event Shift Work</option>
+              <option value="Waiter / Waitress / Barista">Waiter / Waitress / Barista</option>
+              <option value="Commis Chef / Kitchen Steward">Commis Chef / Kitchen Steward</option>
+              <option value="VIP Hostess / Receptionist">VIP Hostess / Receptionist</option>
+              <option value="Valet Driver / Chauffeur">Valet Driver / Chauffeur</option>
+              <option value="Nurse / Medical Support">Nurse / Medical Support</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-[#152865] mb-1.5">Qatar ID (QID) Status *</label>
+            <select id="cand-qid" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm bg-white focus:outline-none focus:border-[#1E3A8A]">
+              <option value="Valid QID with NOC">Valid QID (Transferable / NOC)</option>
+              <option value="Student / Family Sponsorship">Student / Family Sponsorship</option>
+              <option value="Freelance / Work Visa">Valid Work Visa in Doha</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="w-full bg-[#8E1C36] hover:bg-[#A82240] text-white font-bold text-sm uppercase tracking-wider py-3.5 rounded-xl shadow-lg transition-colors mt-2">
+          Submit Application
+        </button>
+      </form>
+
+      <div id="candidate-apply-success" class="hidden mt-4 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 text-sm">
+        <strong class="block font-bold text-emerald-950 mb-1"><i class="fa-solid fa-circle-check mr-1"></i> Application Submitted!</strong>
+        Thank you for applying to <strong>67 Events</strong>. Our HR desk will contact you via WhatsApp or phone for walk-in interview scheduling in Al Mansoura, Doha.
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       PRIVACY POLICY MODAL
+       ===================================================================== -->
+  <div id="privacy-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-[#0F1D4A]/75 backdrop-blur-sm p-4">
+    <div class="bg-white rounded-3xl max-w-xl w-full p-7 sm:p-8 shadow-2xl border border-slate-200 relative">
+      <button onclick="closePrivacyModal()" aria-label="Close Privacy Policy" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-[#8E1C36] text-slate-600 hover:text-white flex items-center justify-center transition-colors">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <h3 class="font-display text-2xl font-extrabold text-[#152865] mb-3">Privacy Policy — 67 Events Qatar</h3>
+      <p class="text-sm text-slate-600 leading-relaxed mb-3">
+        <strong>67 Events</strong> respects your privacy and protects all personal and corporate information submitted through our website in accordance with Qatar Personal Data Privacy Protection Law (Law No. 13 of 2016).
+      </p>
+      <p class="text-sm text-slate-600 leading-relaxed mb-5">
+        Client staffing inquiries and candidate applications are used exclusively for manpower deployment, recruitment verification, and service communication. For data inquiries, contact <a href="mailto:usmanbhai@gmail.com" class="text-[#8E1C36] font-semibold underline">usmanbhai@gmail.com</a> or call <a href="tel:+97430029294" class="text-[#1E3A8A] font-semibold underline">+97430029294</a>.
+      </p>
+      <button onclick="closePrivacyModal()" class="bg-[#1E3A8A] text-white font-bold text-xs uppercase tracking-wider px-6 py-3 rounded-xl">Close</button>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       JAVASCRIPT INTERACTIVITY
+       ===================================================================== -->
+  <script>
+    // 1. Scroll Progress Bar & Sticky Header Shadow
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = docHeight > 0 ? Math.min(100, (scrollTop / docHeight) * 100) : 0;
+      const progressBar = document.getElementById('scroll-progress-bar');
+      if (progressBar) {
+        progressBar.style.height = progress + '%';
+      }
+
+      const navbar = document.getElementById('navbar');
+      if (scrollTop > 20) {
+        navbar.classList.add('shadow-md');
+      } else {
+        navbar.classList.remove('shadow-md');
+      }
+    });
+
+    // 2. Mobile Navigation Drawer Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    // 3. Hero Slider Auto-Advance & Controls
+    const slides = document.querySelectorAll('.hero-slide');
+    const dots = document.querySelectorAll('.slide-dot');
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+      currentSlide = (index + slides.length) % slides.length;
+      slides.forEach((s, i) => {
+        s.classList.toggle('active', i === currentSlide);
+      });
+      dots.forEach((d, i) => {
+        if (i === currentSlide) {
+          d.classList.remove('w-2.5', 'bg-white/50');
+          d.classList.add('w-8', 'bg-[#8E1C36]');
+        } else {
+          d.classList.remove('w-8', 'bg-[#8E1C36]');
+          d.classList.add('w-2.5', 'bg-white/50');
+        }
+      });
+    }
+
+    function startSlideTimer() {
+      clearInterval(slideInterval);
+      slideInterval = setInterval(() => showSlide(currentSlide + 1), 5500);
+    }
+
+    document.getElementById('next-slide').addEventListener('click', () => {
+      showSlide(currentSlide + 1);
+      startSlideTimer();
+    });
+    document.getElementById('prev-slide').addEventListener('click', () => {
+      showSlide(currentSlide - 1);
+      startSlideTimer();
+    });
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        showSlide(parseInt(dot.dataset.index, 10));
+        startSlideTimer();
+      });
+    });
+    startSlideTimer();
+
+    // 4. Staffing Category Pill Pre-fill & Smooth Scroll to Corporate Form
+    function selectStaffCategory(categoryName) {
+      const needInput = document.getElementById('corp-need');
+      const formSection = document.getElementById('staffing-form');
+      if (needInput) {
+        needInput.value = categoryName;
+      }
+      if (formSection) {
+        formSection.scrollIntoView({ behavior: 'smooth' });
+        setTimeout(() => needInput.focus(), 500);
+      }
+    }
+
+    // 5. Corporate Staffing Inquiry Form Submission
+    document.getElementById('corporate-inquiry-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = document.getElementById('corp-name').value.trim();
+      const company = document.getElementById('corp-company').value.trim();
+      const need = document.getElementById('corp-need').value.trim();
+
+      const successBox = document.getElementById('corporate-form-success');
+      const successText = document.getElementById('corporate-success-text');
+      successText.innerHTML = `Thank you, <strong>${name}</strong> from <strong>${company}</strong>! Your request for <strong>${need}</strong> has been logged with the 67 Events Doha dispatch team. We will contact you shortly, or call <a href="tel:+97430029294" class="font-bold underline">+97430029294</a> for immediate assistance.`;
+      successBox.classList.remove('hidden');
+      this.reset();
+    });
+
+    // 6. Interactive FAQ Accordion
+    document.querySelectorAll('.faq-trigger').forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        const item = trigger.closest('.faq-item');
+        const content = item.querySelector('.faq-content');
+        const icon = trigger.querySelector('i');
+        const isOpen = !content.classList.contains('hidden');
+
+        // Close all items
+        document.querySelectorAll('.faq-item').forEach(other => {
+          other.querySelector('.faq-content').classList.add('hidden');
+          other.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+          const otherIcon = other.querySelector('.faq-trigger i');
+          otherIcon.classList.remove('fa-minus');
+          otherIcon.classList.add('fa-plus');
+        });
+
+        // Toggle current item
+        if (!isOpen) {
+          content.classList.remove('hidden');
+          trigger.setAttribute('aria-expanded', 'true');
+          icon.classList.remove('fa-plus');
+          icon.classList.add('fa-minus');
+        }
+      });
+    });
+
+    // 7. Client Reviews Tabbed Testimonial Switcher (All 9 Client Organizations)
+    const clientReviews = [
+      {
+        org: 'Atlantis',
+        initials: 'AT',
+        author: 'Marcus Vance',
+        role: 'Director of Banquet Operations — Atlantis',
+        quote: '67 Events consistently delivers polished, attentive hospitality staff who understand five-star service standards from day one. Their standby backup guarantee gives our banquet leadership complete peace of mind.'
+      },
+      {
+        org: 'Bateel',
+        initials: 'BT',
+        author: 'Nadia Al-Kuwari',
+        role: 'Regional Retail & Hospitality Manager — Bateel',
+        quote: 'Whether supporting seasonal gifting peaks or VIP corporate hospitality in Doha, 67 Events provides articulate, impeccably groomed brand ambassadors and servers who reflect our luxury heritage.'
+      },
+      {
+        org: 'Elite Ways',
+        initials: 'EW',
+        author: 'Samer Haddad',
+        role: 'Managing Partner — Elite Ways Events',
+        quote: 'Tight turnarounds are normal in live event production, and 67 Events has never let us down. Even with 48 hours notice, their team arrived uniformed, briefed, and ready to execute.'
+      },
+      {
+        org: 'Jumeirah',
+        initials: 'JM',
+        author: 'Elena Rostova',
+        role: 'Cluster Talent & Operations Lead — Jumeirah',
+        quote: 'The pre-deployment training conducted by 67 Events sets them apart from standard manpower agencies. Their commis chefs, stewards, and wait staff integrate effortlessly with our permanent brigade.'
+      },
+      {
+        org: 'Aman Hospital',
+        initials: 'AH',
+        author: 'Dr. Faisal Al-Thani',
+        role: 'Patient Experience & Support Services — Aman Hospital',
+        quote: '67 Events supplied courteous front-desk receptionists and licensed nursing support staff on short notice. Their professionalism, compliance documentation, and empathy with patients were outstanding.'
+      },
+      {
+        org: 'Yas Plaza By Aldar Hospitality',
+        initials: 'YP',
+        author: 'Tariq Mahmood',
+        role: 'Complex Director of Operations — Yas Plaza By Aldar Hospitality',
+        quote: 'During major motorsport and conference weekends, 67 Events scaled our F&B and valet operations seamlessly. Their on-site supervisors kept every shift running like clockwork.'
+      },
+      {
+        org: 'National Museum of Qatar',
+        initials: 'NM',
+        author: 'Hessa Al-Sulaiti',
+        role: 'Visitor Experience & Protocol Coordinator — National Museum of Qatar',
+        quote: 'For high-profile cultural exhibitions and diplomatic receptions, 67 Events provided multilingual hosts and VIP ushers who upheld the highest standards of Qatari hospitality and protocol.'
+      },
+      {
+        org: '3Sc Technologies',
+        initials: '3S',
+        author: 'Rohan Kulkarni',
+        role: 'Regional Exhibition Lead — 3Sc Technologies',
+        quote: 'At Doha Web Summit and DECC trade shows, 67 Events staffed our pavilion with proactive registration coordinators and corporate assistants who helped us capture every enterprise lead.'
+      },
+      {
+        org: 'Max Interior',
+        initials: 'MI',
+        author: 'Karim Mansour',
+        role: 'Projects & Logistics Director — Max Interior',
+        quote: 'From site helpers and drivers to administrative coordinators, 67 Events gives us agile short- and long-term manpower in Qatar without administrative headaches.'
+      }
+    ];
+
+    const reviewTabsContainer = document.getElementById('review-tabs');
+    function renderReviewTabs(activeIndex = 0) {
+      reviewTabsContainer.innerHTML = '';
+      clientReviews.forEach((item, idx) => {
+        const btn = document.createElement('button');
+        const isActive = idx === activeIndex;
+        btn.textContent = item.org;
+        btn.className = isActive
+          ? 'px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-[#8E1C36] text-white shadow-md transition-all'
+          : 'px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-white/10 hover:bg-white/20 text-slate-200 transition-all';
+        btn.addEventListener('click', () => {
+          updateActiveReview(idx);
+          renderReviewTabs(idx);
+        });
+        reviewTabsContainer.appendChild(btn);
+      });
+    }
+
+    function updateActiveReview(idx) {
+      const r = clientReviews[idx];
+      document.getElementById('review-quote').textContent = `"${r.quote}"`;
+      document.getElementById('review-author').textContent = r.author;
+      document.getElementById('review-role').textContent = r.role;
+      document.getElementById('review-avatar').textContent = r.initials;
+    }
+
+    renderReviewTabs(0);
+    updateActiveReview(0);
+
+    // 8. Candidate Job Application Modal Controls
+    const applyModal = document.getElementById('apply-modal');
+    function openApplyModal(defaultRole) {
+      const roleSelect = document.getElementById('cand-role');
+      if (defaultRole && roleSelect) {
+        // Match option if exists, otherwise add temporarily
+        let found = false;
+        for (let opt of roleSelect.options) {
+          if (opt.value === defaultRole) {
+            roleSelect.value = defaultRole;
+            found = true;
+            break;
+          }
+        }
+        if (!found) {
+          const newOpt = new Option(defaultRole, defaultRole, true, true);
+          roleSelect.add(newOpt);
+        }
+      }
+      document.getElementById('candidate-apply-success').classList.add('hidden');
+      applyModal.classList.remove('hidden');
+      applyModal.classList.add('flex');
+    }
+
+    function closeApplyModal() {
+      applyModal.classList.add('hidden');
+      applyModal.classList.remove('flex');
+    }
+
+    document.getElementById('candidate-apply-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('candidate-apply-success').classList.remove('hidden');
+      this.reset();
+    });
+
+    // 9. Newsletter Form Submission
+    document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('newsletter-feedback').classList.remove('hidden');
+      this.reset();
+    });
+
+    // 10. Privacy Modal Controls
+    const privacyModal = document.getElementById('privacy-modal');
+    function openPrivacyModal(e) {
+      if (e) e.preventDefault();
+      privacyModal.classList.remove('hidden');
+      privacyModal.classList.add('flex');
+    }
+    function closePrivacyModal() {
+      privacyModal.classList.add('hidden');
+      privacyModal.classList.remove('flex');
+    }
+
+    // Close modals on backdrop click
+    [applyModal, privacyModal].forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.add('hidden');
+          modal.classList.remove('flex');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
